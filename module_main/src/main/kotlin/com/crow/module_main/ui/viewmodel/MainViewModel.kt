@@ -95,12 +95,12 @@ class MainViewModel(val repository: AppRepository) : BaseMviViewModel<AppIntent>
     }
 
     override fun dispatcher(intent: AppIntent) {
-        when(intent) {
-            is AppIntent.GetUpdateHistory -> getUpdateHistory(intent)
-            is AppIntent.GetUpdateInfo -> getUupdateInfo(intent)
-            is AppIntent.GetQQGroup -> getQQGropu(intent)
-            is AppIntent.GetDynamicSite -> getSite(intent)
-            is AppIntent.GetNotice -> getNotice(intent)
-        }
+//        when(intent) {
+//            is AppIntent.GetUpdateHistory -> getUpdateHistory(intent)
+//            is AppIntent.GetUpdateInfo -> getUupdateInfo(intent)
+//            is AppIntent.GetQQGroup -> getQQGropu(intent)
+//            is AppIntent.GetDynamicSite -> getSite(intent)
+//            is AppIntent.GetNotice -> getNotice(intent)
+//        }
     }
 }

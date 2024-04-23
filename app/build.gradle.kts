@@ -85,16 +85,16 @@ android {
         release {
 
             // 开启代码压缩
-            isMinifyEnabled = true
+            isMinifyEnabled = false
 
             // 开启资源深度压缩
-            isShrinkResources = true
+            isShrinkResources = false
 
             // 添加ProGuard配置，优化发行版性能
-            proguardFiles(
-                getDefaultProguardFile(AppConfigs.proguard_android_optimize_txt),
-                AppConfigs.proguard_rules_pro
-            )
+//            proguardFiles(
+//                getDefaultProguardFile(AppConfigs.proguard_android_optimize_txt),
+//                AppConfigs.proguard_rules_pro
+//            )
         }
     }
 
